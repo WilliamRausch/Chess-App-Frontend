@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body{
+  background-color: lightyellow;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: brown;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+.Players{
+  text-align: center;
+}
+#playerList-container{
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+#playerList{
+padding: 0px;
+  margin-top: 100px;
+  list-style: none;
+  background-color: tan;
+   border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+
+  
+
+}
+#singlePlayer-container{
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+#singlePlayer{
+padding: 0px;
+width: 200px;
+  margin-top: 100px;
+  list-style: none;
+  background-color: tan;
+   border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+  
+
+}
+#ratio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin: 5px;
+}
+#ratio p{
+  margin: 15px;
+}
+
+
+#each-player{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  font-size: 30px;
+  position: relative;
+  padding-left: 30px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  width: 200px;
+  background: white;
+}
+#each-player:hover{
+  border-color: #777;
+  box-shadow: 3px 3px 5px #333;
+  
+  background: #eeeeee;
+
+}
+#Board-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Board1{
+     width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+     transform: rotate(270deg);
+}
+#Board2{
+  width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+    transform: rotate(90deg);
+
+}
+#light-space{
+   float: left;
+    width: 80px;
+    height: 80px;
+    background-color: tan;
+
+      font-size:30px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+#dark-space{
+  float: left;
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+
+      font-size:30px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+#Board1  div{
+  transform: rotate(90deg);
+}
+#Board2 div{
+  transform: rotate(270deg);
+}
+
